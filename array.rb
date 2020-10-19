@@ -26,3 +26,11 @@ puts "#{kernel}"
 
 x = 4
 puts "#{x.class}"
+
+friends = Array[]
+friends.push("Frank")
+friends.pop()
+friends.unshift("Frank")
+# friends.shift()
+friends.map { |str| str.upcase}
+puts "#{friends}"
